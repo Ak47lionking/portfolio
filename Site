@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amresh Kumar | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: #6200ea;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            color: #6200ea;
+            margin-top: 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        .badge {
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 5px;
+            background: #eee;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #6200ea;
+            color: #fff;
+            margin-top: 20px;
+        }
+        a {
+            color: #6200ea;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Amresh Kumar</h1>
+    <p>Cloud Engineer | ELK Enthusiast</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>I'm a Senior SaaS Operations Engineer with a passion for Cloud Engineering and ELK Stack. Based in Malaysia, I have global project experience and a keen interest in building scalable solutions.</p>
+</section>
+
+<section>
+    <h2>Certifications</h2>
+    <div>
+        <span class="badge">AWS Cloud Practitioner</span>
+        <span class="badge">AWS Solutions Architect Associate</span>
+        <span class="badge">AZ-900 Certified</span>
+        <span class="badge">Microsoft Exam 740</span>
+        <span class="badge">Elastic Certified Engineer (In Progress)</span>
+        <span class="badge">Azure AZ-104 (In Progress)</span>
+    </div>
+</section>
+
+<section>
+    <h2>Professional Skills</h2>
+    <ul>
+        <li><strong>DevOps Tools:</strong> Jenkins, GitHub Actions, Azure DevOps, Ansible, Prometheus, Grafana, ELK Stack</li>
+        <li><strong>Cloud Platforms:</strong> Azure, AWS, Google Cloud Platform (GCP)</li>
+        <li><strong>Programming & Scripting:</strong> Bash, PowerShell, YAML</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <ul>
+        <li><strong>Project A:</strong> Scalable CI/CD Pipeline - <em>Jenkins, Docker, Kubernetes</em></li>
+        <li><strong>Project B:</strong> Automated Cloud Resource Provisioning - <em>Terraform, Azure</em></li>
+        <li><strong>Project C:</strong> Log Analysis and Monitoring - <em>ELK Stack, Python</em></li>
+    </ul>
+</section>
+
+<section>
+    <h2>Contact Me</h2>
+    <p>
+        💼 <a href="http://www.linkedin.com/in/amresh-kumar47">LinkedIn</a><br>
+        ✉️ <a href="mailto:amresh441@gmail.com">amresh441@gmail.com</a>
+    </p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Amresh Kumar | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
